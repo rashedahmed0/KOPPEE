@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./img/" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg"
+      style="color: white; background: #864a05cc"
+    >
+      <div class="container-fluid">
+        <div class="w-100 d-flex justify-content-between">
+          <a
+            class="navbar-brand"
+            style="color: white; font-size: 30px; font-weight: 600"
+            href="#"
+            >KOPPEE</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active text-light" aria-current="page" href="#"
+              >Home</a
+            >
+            <a class="nav-link text-light ml-2" href="#">About </a>
+            <a class="nav-link text-light ml-2" href="#">Service </a>
+            <div class="dropdown d-flex ml-2 align-items-center">
+              <a
+                style="text-decoration: none; color: white"
+                class="dropdown-toggle position-relative"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Page
+              </a>
+
+              <ul class="dropdown-menu position-absolute">
+                <li><a class="dropdown-item" href="#">Reservation</a></li>
+                <li><a class="dropdown-item" href="#">Testimonial</a></li>
+              </ul>
+            </div>
+            <a class="nav-link text-light ml-2" href="#">Menu</a>
+            <a class="nav-link text-light ml-2" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+          <img src="./img/carousel-1.jpg" class="d-block w-100" alt="..." />
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100"
+            style="background-color: #00000048; z-index: 1"
+          ></div>
+          <div
+            class="carousel-caption h-100 d-flex flex-column align-items-center justify-content-center z-2"
+          >
+            <h2 class="fs-4 fw-medium" style="color: #da9f5b">
+              We Have Been Serving
+            </h2>
+            <h1 class="fw-bolder" style="font-size: 80px">COFFEE</h1>
+            <h2 class="fs-4 fw-medium">* SINCE 1950 *</h2>
+          </div>
+        </div>
+        <div class="carousel-item carousel-container">
+          <img src="./img/carousel-2.jpg" class="d-block w-100" alt="..." />
+          <div
+            class="carousel-caption h-100 d-flex flex-column align-items-center justify-content-center"
+          >
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
